@@ -19,7 +19,7 @@ function App() {
       <div className='customScroll flex flex-1 bg-primary mr-5 my-6 p-10 pt-6 rounded-3xl overflow-y-auto '>
         <Routes>
           <Route path='/' element={<Dashboard/>} ></Route>
-          <Route path='/map' element={<RealtimeMap/>} ></Route>
+          <Route path='/viewer' element={<RealtimeMap/>} ></Route>
           <Route path='anomaly' element={<AnomalyDetection/>} ></Route>
           <Route path='/alert' element={<Alert/>} ></Route>
           <Route path='/records' element={<Records/>} ></Route>
