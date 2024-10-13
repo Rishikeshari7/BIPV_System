@@ -1,5 +1,7 @@
 import React from "react";
 import { Line } from "react-chartjs-2";
+import trial from "../assets/trial.webp"
+
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -62,18 +64,20 @@ const SimulationComponent = () => {
 
       <div className="border-2 w-[80%] flex justify-between border-yellow-300 p-4 rounded-lg bg-white">
         {/* Left Section */}
-        <div className="flex w-[40%] flex-col space-y-4
-         mr-8 self-center">
-          <div className="p-2 bg-white border border-gray-400 rounded-md text-center text-xl font-bold h-[53px] w-[233px] self-center">
-            Building ID : 12756
+        <div className="flex justify-between gap-5
+         ">
+          <div className="p-2 bg-white border border-gray-400 rounded-md text-center text-xl font-bold w-[233px] self-center ">
+          <div> Building ID : 16594</div> 
+          <div><img src="https://media.istockphoto.com/id/473571622/photo/business-building-architecture.jpg?s=612x612&w=0&k=20&c=nMkB0BveibcS-Pp3eSQ-Fj4t80gHgB-Lk6uwne191CA=" className=" rounded-xl"/></div>
           </div>
-          <div className="p-2 bg-white border border-gray-400 rounded-md text-center text-xl font-bold h-[53px] w-[233px] self-center">
+          <div className="p-2 bg-white border border-gray-400 rounded-md text-center text-xl font-bold  w-[233px] self-center">
             Building ID : 12756
+            <div><img src="https://media.istockphoto.com/id/473571622/photo/business-building-architecture.jpg?s=612x612&w=0&k=20&c=nMkB0BveibcS-Pp3eSQ-Fj4t80gHgB-Lk6uwne191CA=" className=" rounded-xl"/></div>
           </div>
         </div>
 
         {/* Right Section */}
-        <div className="border-2 w-[50%] border-yellow-300 p-4 px-0 pt-0 rounded-lg">
+        <div className="border-2 w-[45%] border-yellow-300 p-4 px-0 pt-0 rounded-lg">
           <div className="text-center py-2   text-4xl font-semibold bg-gradient-to-b from-[#E6C300] to-[#FF8C00] text-white rounded-t-lg">
             Building Information
           </div>
@@ -81,14 +85,14 @@ const SimulationComponent = () => {
             <tbody>
               <tr className="border-t border-b">
                 <td className="p-2 border-r text-center">Height (m) : 33m</td>
-                <td className="p-2 text-center">Height (m) : 33m</td>
+                <td className="p-2 text-center">Height (m) : 24m</td>
               </tr>
               <tr className="border-b">
                 <td className="p-2 border-r text-center">
                   Available rooftop area : 3467 sq.m
                 </td>
                 <td className="p-2 text-center">
-                  Available rooftop area : 3667 sq.m
+                  Available rooftop area : 4578 sq.m
                 </td>
               </tr>
               <tr className="border-b">
