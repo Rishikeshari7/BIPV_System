@@ -68,7 +68,7 @@ const BuildingComponent = () => {
         </div>
           {/* Download Button */}
       <div className="col-span-2 flex justify-center mt-6 ">
-        <button className=" text-4xl font-semibold bg-gradient-to-b from-[#E6C300] to-[#FF8C00]  text-white py-2 px-4 rounded-lg font-bold shadow-lg hover:shadow-xl transition duration-300 w-full h-[78px]">
+        <button className=" text-4xl font-semibold bg-gradient-to-b from-[#E6C300] to-[#FF8C00]  text-white py-2 px-4 rounded-lg  shadow-lg hover:shadow-xl transition duration-300 w-full h-[78px]">
           Download details
         </button>
       </div>

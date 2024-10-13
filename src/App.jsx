@@ -20,7 +20,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Dashboard/>} ></Route>
           <Route path='/viewer' element={<RealtimeMap/>} ></Route>
-          <Route path='anomaly' element={<AnomalyDetection/>} ></Route>
+          <Route path='/simulation' element={<AnomalyDetection/>} ></Route>
           <Route path='/alert' element={<Alert/>} ></Route>
           <Route path='/records' element={<Records/>} ></Route>
           <Route path='/satellite' element={<SatelliteImage/>} ></Route>
